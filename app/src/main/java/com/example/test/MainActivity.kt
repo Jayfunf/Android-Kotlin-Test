@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Toast.makeText(this@MainActivity, "Hi",Toast.LENGTH_LONG).show()
+        Toast.makeText(this@MainActivity, "LongTimeNoSee",Toast.LENGTH_LONG).show()
     }
 }
